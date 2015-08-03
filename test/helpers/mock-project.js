@@ -51,7 +51,7 @@ MockProject.prototype = {
   },
 
   destroy: function () {
-    return rimraf(this.projectRoot);
+    // return rimraf(this.projectRoot);
   },
 
   _jsonFileData: function (filename) {

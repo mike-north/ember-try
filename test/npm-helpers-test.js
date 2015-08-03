@@ -3,7 +3,7 @@ var should = require("should");
 
 var MockProject = require('./helpers/mock-project');
 
-describe.only('npmHelpers', function(){
+describe('npmHelpers', function(){
 
   describe('#resetNpmFile()', function() {
     // actual npm install could take a while
